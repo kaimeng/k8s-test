@@ -9,4 +9,5 @@ spec:
   - ReadWriteOnce
   - ReadOnlyMany
   persistentVolumeReclaimPolicy: Retain
-  hostPath: /root/mongodb
+  hostPath:
+    path: "/mnt/mongodb"

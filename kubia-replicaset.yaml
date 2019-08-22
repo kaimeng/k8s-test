@@ -15,3 +15,8 @@ spec:
       containers:
       - name: kubia
         image: luksa/kubia
+        ports:
+        - name: http
+          containerPort: 8080
+        - name: https
+          containerPort: 8443
